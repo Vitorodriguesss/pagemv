@@ -959,3 +959,54 @@ blockquote {
 	top: 0;
 	left: -2400px;
 }
+
+		.whatsapp-link {
+			position: fixed;
+			width: 60px;
+			height: 60px;
+			bottom: 40px;
+			right: 40px;
+			background-color: #25d366;
+			color: #fff;
+			border-radius: 50px;
+			text-align: center;
+			font-size: 30px;
+			box-shadow: 1px 1px 2px #888;
+			z-index: 1000;
+		}
+ 
+		.fa-whatsapp {
+			margin-top: 16px;
+		}
+
+        /*
+referente a animacao do whats lateral 
+*/
+
+.whatsapp-link {
+  animation: tremulo_2071112879 2s linear infinite;
+  transform-origin: 90% %; }
+
+@keyframes tremulo_2071112879 {
+  0% {
+    transform: perspective(100px)rotate(0deg)
+  }
+  12.5% {
+    transform: perspective(100px)rotateX(180deg)rotateY(0);
+  }
+  25% {
+    transform: perspective(100px)rotateX(180deg)rotateY(180deg);
+  }
+  37.5% {
+    transform: perspective(100px)rotateX(0)rotateY(180deg);
+  }
+  50% {
+    transform: perspective(100px)rotateX(0)rotateY(0);
+  }
+  100% {
+    transform: perspective(100px)rotateX(0)rotateY(0);
+  }
+}
+
+
+	
